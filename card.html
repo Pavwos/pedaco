@@ -10,10 +10,12 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
-        body {
+        body,
+        html {
             background-color: #1C1C1C;
             margin: 0;
             padding: 0;
+            height: 100%;
         }
         
         main {
@@ -26,7 +28,7 @@
             width: 15%;
             justify-content: center;
             padding: 53px;
-            width: 13%;
+            width: 11%;
             margin-top: 15%;
         }
         
@@ -80,7 +82,7 @@
         
         .btn:hover {
             background-color: transparent;
-            border: 2px solid white;
+            border: 3px solid white;
         }
         
         #btn-s {
@@ -101,7 +103,7 @@
             color: #fff;
         }
         
-        @media (max-width: 435px) {
+        @media (min-width: 1600px) {
             main {
                 display: flex;
                 flex-direction: column;
